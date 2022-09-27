@@ -42,7 +42,7 @@ a,img,button,input {
 	background: url('../images/body-bg.jpg'), radial-gradient(74% 74% at 50% 26%, #390B70 0%, #1F0242 100%);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: bottom;
 	background-blend-mode: screen, normal;
 	position: relative;
 }
@@ -660,7 +660,10 @@ footer .footer-links a:last-child {
 		height: 100px;
 	}
 	.security-sec .security-block {
-		width: 90%;
+		width: 100%;
+	}
+	.security-sec .security-block > img {
+		width: 100%;
 	}
 }
 
