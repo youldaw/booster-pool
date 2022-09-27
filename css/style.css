@@ -448,6 +448,9 @@ footer .footer-socials {
 footer .footer-socials a {
 	margin-right: 25px;
 }
+footer .footer-socials a:hover {
+	transform: scale(1.1);
+}
 footer .footer-socials a:last-child {
 	margin-right: 0;
 }
@@ -612,6 +615,9 @@ footer .site-date p {
 	.community-sec .community-block p {
 		font-size: 18px;
 	}
+	.security-sec .security-block > img {
+		width: 100%;
+	}
 }
 
 
@@ -673,9 +679,7 @@ footer .site-date p {
 	.security-sec .security-block {
 		width: 100%;
 	}
-	.security-sec .security-block > img {
-		width: 100%;
-	}
+	
 }
 
 @media only screen and (max-width: 480px) {
