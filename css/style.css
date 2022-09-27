@@ -37,16 +37,13 @@ a,img,button,input {
 	transition: .3s all ease;
 }
 
-#canvas1{
-	width: 100vw;
-	height: 100vh;
-}
+
 .wrapper {
 	overflow: hidden;
 	background: url('../images/body-bg.jpg'), radial-gradient(74% 74% at 50% 26%, #390B70 0%, #1F0242 100%);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: center;
 	background-blend-mode: screen, normal;
 	position: relative;
 }
@@ -55,19 +52,18 @@ a,img,button,input {
 	position: absolute;
 	top: 30px;
 	right: 100px;
-	z-index: 0;
-	filter: blur(125px);
+	z-index: 1;
 }
 .bg-img2 {
 	position: absolute;
-	top: 46%;
-    left: -400px;
-	z-index: 0;
+	top: 45%;
+    left: 0;
+	z-index: 1;
 }
-/* header, main, footer {
+header, main, footer {
 	position: relative;
 	z-index: 2;
-} */
+}
 
 
 header {
@@ -410,7 +406,7 @@ header .guide-btn:hover {
 	font-size: 15px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 /* end behind section */
@@ -447,9 +443,10 @@ footer .footer-block {
 footer .footer-socials {
 	display: flex;
 	align-items: center;
+	margin-left: 150px;
 }
 footer .footer-socials a {
-	margin-right: 22px;
+	margin-right: 25px;
 }
 footer .footer-socials a:last-child {
 	margin-right: 0;
@@ -479,7 +476,16 @@ footer .footer-links a:last-child {
 	margin-right: 0;
 }
 
+footer .site-date {
+	margin-top: 50px;
+	text-align: center;
+}
+footer .site-date p {
+	font-size: 13px;
+	line-height: 16px;
+	color: #FFFFFF;
 
+}
 
 
 
@@ -565,6 +571,7 @@ footer .footer-links a:last-child {
 	footer .footer-socials {
 		order: 2;
 		width: 70%;
+		margin-left: 0;
 		justify-content: flex-end;
 	}
 	.community-sec .community-block {
@@ -671,7 +678,7 @@ footer .footer-links a:last-child {
 	}
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
 	footer .footer-block {
 		flex-direction: column;
 	}
