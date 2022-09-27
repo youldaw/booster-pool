@@ -1,7 +1,11 @@
 @font-face {
-    font-family: ALS Sector Regular; /* Имя шрифта */
+    font-family: "ALS Sector Regular";
     src: url(../fonts/ALS\ Sector\ Regular\ Regular.ttf); /* Путь к файлу со шрифтом */
-   }
+}
+@font-face {
+    font-family: "ALS Sector Bold";
+    src: url(../fonts/ALS\ Sector\ Bold\ Bold.ttf); /* Путь к файлу со шрифтом */
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -150,7 +154,7 @@ header .guide-btn:hover {
 	margin-right: 5px;
 }
 .main-sec .pool-card .card-body .card-title .title-text {
-	font-weight: 700;
+	font-family: "ALS Sector Bold";
 	font-size: 23px;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -161,7 +165,7 @@ header .guide-btn:hover {
 	margin-bottom: 0;
 }
 .main-sec .pool-card .table-top-title {
-	font-weight: 700;
+	font-family: "ALS Sector Bold";
 	font-size: 20px;
 	line-height: 21px;
 	color: #FFFFFF;
@@ -194,7 +198,7 @@ header .guide-btn:hover {
 }
 .main-sec .card-table table td.text-end,
 .main-sec .card-table table th {
-	font-weight: 700;
+	font-family: "ALS Sector Bold";
 	font-size: 13px;
 	line-height: 20px;
 	color: #FFFFFF;
